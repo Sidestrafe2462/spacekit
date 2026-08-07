@@ -1,3 +1,44 @@
+v0.11.1.0
+*Brightlance rework pt.2
+*Fix Jotunn
+ -put laser damage back at 350
+
+Missiles:
+-M96 Howler (IR KKV):
+ -shortName KKV -> M96 Howler
+ -boostTime 45 -> 90
+ -projectileTTL 2 -> 0.5
+-M340 Streak (PD KKV):
+ -base model KKV stats, new warhead
+-SAPKV/HEKV2:
+ -name/title FUNKV -> M947 Shiva Heavy Anti-Ship Missile
+ -mass 0.2 -> 0.3
+ -cruiseTime 36 -> 48 //make up for slower final speed
+ -cost 4000 -> 5000
+ -rescaleFactor 1.2 -> 1.3
+-HEKV1:
+ -added to SPACEKIT
+ -name/title hekv1 -> M2950 Harpoon Anti-Ship Missile
+ -rescaleFactor 1 -> 1.1
+ -cost 4000 -> 4500
+ -mass 0.14 -> 0.15
+
+Coilguns:
+-Mark 33 Spitfire:
+ -50x300mm Flak round made explosive
+ -50x300mmAP apBulletMod 0.2 -> 0.13
+ -50x300mmHE apBulletMod 0.05 -> 0.025
+ -soundfile path corrected
+-Mark 15 Breakwater
+ -100x600mmAP apBulletMod 1 -> 0.33
+ -100x600mmHE apBulletMod 0.1 -> 0.01
+ -soundfile path corrected
+
+MACs:
+-soundfile paths fixed
+
+
+
 v0.11.0.0
 REBALANCING
 Missiles:

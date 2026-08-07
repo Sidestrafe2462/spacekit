@@ -1,0 +1,69 @@
+v0.11.0.0
+REBALANCING
+Missiles:
+-KKV2:
+ -FlareEffectivity 0 -> 0.3
+ -Rescale Factor 0.33 -> 0.66
+ -Mass 0.045 -> 0.08
+ -Name KKV 2 -> M96 Howler Anti-Ship Missile
+ -Warhead:
+  -bulletMass 45 -> 20
+  -Incindiary true -> false
+
+Lasers:
+-ABLCAPITAL:
+ -Cost: 12500 -> 10000
+ -maxEffectiveDistance 56000 -> 30000
+ -maxTargetingRange 56000 -> 30000
+ -requestResourceAmount 150 -> 80
+ -laserDamage 670 -> 400
+ -title: AN/SEQ-02 Hailstorm Point Defense Laser
+ -mass 0.8 -> 1.4
+-ABLSMALL:
+ -Cost: 5500 -> 4000
+ -maxEffectiveDistance 48000 -> 22000
+ -maxTargetingRange 48000 -> 22000
+ -title: M02C Jotunn Point Defense Laser
+-big laser:
+ -Cost: 16000 -> 10000
+ -title: 20F9239 'FUCKASS LASER' -> Brightlance Compound Reflex Laser
+ -requestResourceAmount 550 -> 10000
+ -heatPerShot 225 -> 6000
+
+DP PDCs:
+-flaksidam/RAMPARTPDC:
+ -Cost: 3500 -> 3000
+ -title: RAMPART PDC -> M910 Rampart Point Defense Gun
+ -roundsPerMinute 900 -> 600 //300rpm per barrel, inline with resources such as Project Stardust, might change it to 950 per barrel??? aint no resources on ts :skull:
+ -maxEffectiveDistance 8000 -> 16000
+ -maxTargetingRange 10000 -> 18000
+ -bulletType 30x173Bullet3; 30x173Bullet3; 30x173FLAKBullet2 -> 30x173Bullet3; 30x173Prox
+ -detonationRange 2 -> 1
+-BSGFLAK
+ -Cost: 4500 -> 4000
+ -title: BATTLESTAR GALACTICA PILLED -> M40 Supressor Autocannon
+ -New ammo for the turret being an ~85mm
+ -roundsPerMinute 280 -> 130
+ -maxDeviation 0.06 -> 0.04
+ -maxEffectiveDistance 12000 -> 20000
+ -maxTargetingRange 14000 -> 22000
+ -bulletType 76x636mmGPShell; 76x636mmPLA-PShell; 76x636mmPFShell -> 85x708API; 85x708Prox
+ -detonationRange 5 -> 3
+Coilguns:
+-Mark15Breakwater:
+ -100x600mmAP apBulletMod 1 -> 0.2
+ -100x600mmHE apBulletMod 0.1 -> 0.025
+ -yawSpeedDPS 10 -> 16.5
+ -pitchSpeedDps 16.4 -> 16.5
+ -roundsPerMinute 14 -> 42 //turns out i forgot that RPM is between all the barrels :(
+ -CannonShells 60(?) -> 92
+ -Added new fire sound
+-Mark33Spitfire
+ -added to the pack, based on the USN 5in twin mount from NAS.
+-14D4A1 Super Magnetic Accelerator Cannon added
+-50GE1A Heavy Magnetic Accelerator Cannon added
+-49F9A1 Magnetic Accelerator Cannon added
+-56A2D4 Burst Magnetic Accelerator Cannon added
+-68P8V1 Light Magnetic Accelerator Cannon added
+ 
+
